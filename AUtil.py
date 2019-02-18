@@ -1,0 +1,6 @@
+
+def enum(*sequential, **named):
+    enums = dict(zip(sequential, range(len(sequential))), **named)
+    return type('Enum', (), enums)
+AMouseButton=enum('NoButton','LeftButton','RightButton','MidButton')
+AParamType=enum('Input','Output','Control')
