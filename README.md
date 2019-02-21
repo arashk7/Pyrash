@@ -1,5 +1,5 @@
 # Pyrash
-Python based Visual Deep Neural Network Designer 
+Python based Visual Deep Neural Network Designer  (in progress)
 
 Requeirmens:
 
